@@ -1,15 +1,10 @@
-//
-//  ContentView.swift
-//  App
-//
-//  Created by Visuality on 06.04.2020.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        MainView()
+        NavigationView {
+            MainScreen()
+        }
     }
 }
 
